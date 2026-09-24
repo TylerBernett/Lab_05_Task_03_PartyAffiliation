@@ -30,10 +30,13 @@ public class PartyAffiliation
                 return;
             case "R", "r":
                 IO.println("You get a republican elephant! ");
+                return;
             case "I", "i":
                 IO.println("You get an independent person! ");
+                return;
             default:
                 IO.println("I don't know that party! ");
+                return;
         }
     }
 }
